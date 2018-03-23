@@ -25,7 +25,7 @@ public class HelloWorldUI extends UI {
     public static class Servlet extends VaadinServlet {
     }
 
-    /*
+    
     @Override
     protected void init(VaadinRequest request) {
         final VerticalLayout layout = new VerticalLayout();
@@ -55,6 +55,5 @@ public class HelloWorldUI extends UI {
         layout.addComponent(button);
         layout.addComponent(clickCounterLabel = new Label("Clicks: 0"));
     }
-    */
-
+    
 }
